@@ -10,7 +10,7 @@ body{
 	clear: both;
 	display:block;
 }
-.contenedor{
+.container{
 	width: 80%;
 	height: 60%;
 	padding: 5px;
@@ -43,7 +43,7 @@ body{
 }
 li{
 	padding: 5px;
-	
+
 }
 .img_central{
 	width: 90%;
@@ -69,3 +69,27 @@ li{
 	display: flex;
 	flex-direction: row;
 }
+[class^="contenedor"] {
+  width: 50%;
+  min-height: 200px;
+  padding: 0.5vw;
+  border: 1px solid black;
+  margin: 0.4vw;
+  flex-direction: row;
+  display: inline-block;
+  
+}
+[class^="cuadrado"] {
+  margin: 0 auto;
+  width: 50%;
+  padding: 0.5vw;
+  min-width: 100px;
+  flex-direction: row;
+  display: inline-block;
+
+  
+}
+[class^="cuadrado"] img{
+  width: 100%;
+}
+
